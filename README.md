@@ -2,15 +2,15 @@
 Automate switching profiles on libratbag supported devices
 
 
-#Why?
+# Why?
 
 Some people like using different profiles on their gaming mice when playing different games. In my case, I found that older games don't support extra mouse buttons, because they weren't common in olden times.
 
-#How?
+# How?
 
 libratbag makes it possible to change active profiles on gaming mouse on the fly. These profiles can include bindings or macros that emit keystrokes on certain mouse buttons. This script changes the profile, runs your game, then changes it back when the user quits their game.
 
-#Some assembly required.
+# Some assembly required.
 
 You will need to create a second profile on your mouse that binds your extra mouse buttons to keystrokes. You can do this with [Piper](https://github.com/libratbag/piper) or in Windows with the software provided by your hardware vendor. In the case of my variant of the Logitech G502, Piper support is still a bit buggy and I had to use Logitech Gaming Software in Windows to create the profile. Your normal profile should be the first and your alternate profile the second one.
 
