@@ -17,10 +17,3 @@ You will need to create a second profile on your mouse that binds your extra mou
 When switching profiles on Logitech mice, libratbag likes to ignore the profile default sensitivity setting and just use the lowest preset in the active profile. Find the line below and alter it to suit your situation. By default, it will  set the sensitivity to the third preset in the active profile. If you only have one sensitivity value set in your profile, you can comment or remove both instances of this line. Replace the 2 with whatever sensitivity level you want to use (preset numbers start at 0).
 
     ratbagctl "$(echo $device)" resolution active set 2 
-
-Put this script somewhere that is in your $PATH (i.e. /bin). Invoke with the script name and pass the command to run your game, i.e:
-
-    $ cd games/ut99/System
-    $ autoratbag.sh ./ut-bin
-    
-For Steam games, set the games launch options to "autoratbag.sh %command%". This also works with Steam Play titles running in Proton.
