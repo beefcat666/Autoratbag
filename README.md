@@ -21,6 +21,6 @@ When switching profiles on Logitech mice, libratbag likes to ignore the profile 
 Put this script somewhere that is in your $PATH (i.e. /bin). Invoke with the script name and pass the command to run your game, i.e:
 
     $ cd games/ut99/System
-    $ mousekeys.sh ./ut-bin
+    $ autoratbag.sh ./ut-bin
     
-For Steam games, set the games launch options to "mousekeys.sh %command%". This also works with Steam Play titles running in Proton.
+For Steam games, set the games launch options to "autoratbag.sh %command%". This also works with Steam Play titles running in Proton.
