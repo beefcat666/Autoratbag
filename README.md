@@ -1,4 +1,4 @@
-# mousekeys
+# Autoratbag
 Automate switching profiles on libratbag supported devices
 
 
